@@ -9,7 +9,7 @@ class ToasterMessage {
 
         fun showToast(context: Context,msg:String){
 
-            Toast.makeText(context,msg,Toast.LENGTH_LONG)
+            Toast.makeText(context,msg,Toast.LENGTH_LONG).show()
         }
     }
 }
